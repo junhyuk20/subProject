@@ -1,0 +1,33 @@
+#top_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #dddd;
+    border-bottom: 1px solid #dddd;
+    padding: 0 100px;
+    height: 100px;
+    font-weight: bolder;
+}
+#suul_menu {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+#icon_menus {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+}
+#top_search {
+    border: 1px solid;
+    border-radius: 25px;
+    width: 240px;
+    height: 40px;
+    text-align: center;
+}
+#top_search::placeholder {
+    text-align: center;
+    color: black;
+}
+
+
