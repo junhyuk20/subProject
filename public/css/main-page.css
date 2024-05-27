@@ -1,4 +1,4 @@
-#top_header {
+/* #top_header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -7,27 +7,165 @@
     padding: 0 100px;
     height: 100px;
     font-weight: bolder;
-}
-#suul_menu {
+} */
+
+/* #suul_menu {
     display: flex;
     justify-content: space-between;
     width: 300px;
+} */
+#top_header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 55px;
+    margin: 0px auto;
+    
+}
+#top_wrapper {  
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1144px;
+    margin: 0px auto;
+    
+}
+
+#navigation_menu{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+#logo {
+    display: flex;
+    align-items: center;
+    height: 56px;
+    padding-right: 30px;
+    cursor: pointer;
+}
+#lending_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#gudok {
+    color: #2196F3;
+}
+.header_list_menu{
+    margin-right: 20px;
+    font-weight: bold;
+}
+#inner_li {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background-color:  #F7F7F7;
+    color: #b2b2b2;
+}
+#inner{
+    display: flex;
+    align-items: center;
+    width: 210px;
+    padding-left: 10px;
+}
+#user_menu {        
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
 }
 #icon_menus {
     display: flex;
-    justify-content: space-around;
-    width: 200px;
+    align-items: center;
+    cursor: pointer;
 }
-#top_search {
-    border: 1px solid;
-    border-radius: 25px;
-    width: 240px;
-    height: 40px;
-    text-align: center;
+
+#login {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
 }
-#top_search::placeholder {
-    text-align: center;
+#right_arrow {
+    height: 24px;
+}
+#banner {
+    width: 100%;
+    height: 300px;
+    border-top: 1px solid;
+    border-bottom:  1px solid;
+}
+#tap_wraper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    margin: 0px auto;
+}
+#tap_container {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px auto;
+    width: 100%;
+    max-width: 1144px;
+}
+
+.tap_list:not(:last-child) {
+    padding-right: 30px;
+}
+#review_ad_wraper {
+    display: flex;
+    align-items: center;
+    margin: 0px auto;
+    width: 100%;
+    height: 200px;
+}
+#review_ad_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    max-width: 1144px;
+    margin: 0px auto;
+}
+#review_ad_title {
+    width: 100%;
+}
+#review_ad_data_group {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+#review_ad_title_word {
+    margin-bottom: 10px;
+}
+.review_ad_data:not(:last-child) {
+    padding-right: 30px;
+}
+.review_ad_data div {
+    margin-bottom: 10px;
+}
+#review_ad_title_word{
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+#review_number{
     color: black;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
 }
-
-
+#review_average{
+    color: black;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+}
+    
